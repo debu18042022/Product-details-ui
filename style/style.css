@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1140px;
+    padding: 48px 80px;
+}
+
+ins {
+    text-decoration: none;
+}
+
+.bg-color-Ebony {
+    background-color: #111827;
+}
+
+.font-sz-14 {
+    font-size: 14px;
+}
+
+.font-sz-24 {
+    font-size: 24px;
+}
+
+.font-sz-18 {
+    font-size: 18px;
+}
+
+.font-sz-20 {
+    font-size: 20px;
+}
+
+.text-c-river-bed {
+    color: #4b5563;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.products {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__preview {
+    width: calc(100% - 406px);
+}
+
+.products__preview-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 100%;
+}
+
+.products__preview-list-item {
+    max-width: calc(50% - 32px);
+}
+
+.products__preview-list-item img {
+    width: 100%;
+}
+
+.products__description {
+    width: 406px;
+}
+
+.products__description-swapable {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__description-swapable-heading {
+    border-bottom: 1px solid #e5e7eb;
+    border-top: 1px solid #e5e7eb;
+    padding: 16px 0px;
+    width: 114px;
+}
+
+.products__description-list {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.btn-add-to-cart {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 16px;
+    width: 100%;
+}
+
+.sub-btn-list {
+    display: flex;
+    gap: 10px;
+}
+
+.sub-btn-list-item {
+    border: 1px solid #111827;
+    height: 48px;
+    width: 50%;
+}
+
+.sub-btn-list-item button {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+dl {
+    line-height:22px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+dt {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+dd {
+    display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+dd::after {
+    content: "\A";
+    white-space: pre;
+}
